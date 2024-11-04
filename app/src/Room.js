@@ -4,7 +4,7 @@ const config = require('./config');
 const Logger = require('./Logger');
 const log = new Logger('Room');
 
-module.exports = class Room {
+module.exports = class Room { 
     constructor(room_id, worker, io) {
         this.id = room_id;
         this.worker = worker;
