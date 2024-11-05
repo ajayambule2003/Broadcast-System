@@ -45,7 +45,7 @@ dependencies: {
  */
 
 const express = require('express');
-const cors = require('cors');
+const cors = require('cors');    
 const compression = require('compression');
 const https = require('httpolyglot');
 const mediasoup = require('mediasoup');
