@@ -13,7 +13,7 @@ module.exports = class Host {
         return Object.fromEntries(this.authorizedIPs);
     }
 
-    /**
+    /** 
      * Set authorized IP
      * @param {string} ip
      * @param {boolean} authorized
