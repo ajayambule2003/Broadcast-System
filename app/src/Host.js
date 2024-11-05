@@ -14,7 +14,7 @@ module.exports = class Host {
     }
 
     /** 
-     * Set authorized IP
+     * Set authorized IP 
      * @param {string} ip
      * @param {boolean} authorized
      */
