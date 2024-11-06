@@ -5,7 +5,7 @@ module.exports = class Host {
         this.authorizedIPs = new Map();
     }
 
-    /**
+    /** 
      * Get authorized IPs
      * @returns object
      */
