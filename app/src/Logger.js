@@ -9,7 +9,7 @@ const config = require('./config');
 config.console.colors ? colors.enable() : colors.disable();
 
 const options = {
-    depth: null,
+    depth: null, 
     colors: true,
 };
 module.exports = class Logger {
