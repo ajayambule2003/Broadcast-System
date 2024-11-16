@@ -10,7 +10,7 @@ module.exports = class ServerApi {
         this._api_key_secret = config.api.keySecret;
     }
 
-    isAuthorized() {
+    isAuthorized() { 
         if (this._authorization != this._api_key_secret) return false;
         return true;
     }
