@@ -10,7 +10,7 @@
             interval: 100,
         }),
             e.classList.add('anime-ready'),
-            anime
+            anime 
                 .timeline({ targets: '.hero-figure-box-05' })
                 .add({
                     duration: 400,
