@@ -10,7 +10,7 @@ fetch(url)
         }
         return response.json();
     })
-    .then((data) => {
+    .then((data) => { 
         
         const { enabled, src, id } = data;
         if (enabled) {
