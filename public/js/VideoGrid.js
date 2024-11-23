@@ -10,7 +10,7 @@ let customRatio = true;
 let ratios = ['0:0', '4:3', '16:9', '1:1', '1:2'];
 let aspect = 2;
 
-let ratio = getAspectRatio();
+let ratio = getAspectRatio(); 
 
 function getAspectRatio() {
     customRatio = aspect == 0 ? true : false;
