@@ -4,7 +4,7 @@ const xss = require('xss');
 const Logger = require('./Logger');
 const log = new Logger('Xss');
 
-const checkXSS = (dataObject) => { 
+const checkXSS = (dataObject) => {
     try {
         if (Array.isArray(dataObject)) {
             if (Object.keys(dataObject).length > 0 && typeof dataObject[0] === 'object') {
