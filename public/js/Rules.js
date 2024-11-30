@@ -8,9 +8,9 @@ let isPresenter = false;
 
 const isRulesActive = true;
 
-const BUTTONS = {
+const BUTTONS = { 
     main: {
-        shareButton: true,
+        shareButton: true, 
         hideMeButton: true,
         startAudioButton: true,
         startVideoButton: true,
