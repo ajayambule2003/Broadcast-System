@@ -6,17 +6,17 @@ info:
     version: 1.0.0
 
 basePath: /api/v1
-
+ 
 schemes:
     - https
-    - http
+    - http 
 
 paths:
     /meeting:
         post:
-            tags:
+            tags: 
                 - 'meeting'
-            summary: 'Create meeting'
+            summary: 'Create meeting' 
             description: 'Create meeting'
             consumes:
                 - 'application/json'
