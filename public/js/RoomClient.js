@@ -13,11 +13,11 @@
  *
  */
 
-const cfg = {
-    useAvatarSvg: true,
-};
+const cfg = { 
+    useAvatarSvg: true, 
+}; 
 
-const html = {
+const html = { 
     newline: '\n', //'<br />',
     hideMeOn: 'fas fa-user-slash',
     hideMeOff: 'fas fa-user',
