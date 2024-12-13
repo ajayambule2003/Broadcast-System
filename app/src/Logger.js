@@ -2,7 +2,7 @@
 
 const util = require('util');
 
-const colors = require('colors'); 
+const colors = require('colors');   
 
 const config = require('./config');
 
