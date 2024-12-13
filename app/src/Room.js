@@ -10,12 +10,12 @@ module.exports = class Room {
         this.worker = worker;
         this.io = io;
         this.audioLevelObserver = null;
-        this.audioLevelObserverEnabled = true;
+        this.audioLevelObserverEnabled = true; 
         this.audioLastUpdateTime = 0;
         
-        this._isBroadcasting = false; 
+        this._isBroadcasting = false;  
         
-        this._isLocked = false;
+        this._isLocked = false; 
         this._isLobbyEnabled = false;
         this._roomPassword = null;
         this._hostOnlyRecording = false;
