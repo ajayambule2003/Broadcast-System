@@ -13,7 +13,7 @@ module.exports = class Room {
         this.audioLevelObserverEnabled = true; 
         this.audioLastUpdateTime = 0;
         
-        this._isBroadcasting = false;  
+        this._isBroadcasting = false;
         
         this._isLocked = false; 
         this._isLobbyEnabled = false;
