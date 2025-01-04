@@ -1,5 +1,5 @@
-'use strict';
-
+'use strict'; 
+ 
 const os = require('os');
 const ifaces = os.networkInterfaces();
 
